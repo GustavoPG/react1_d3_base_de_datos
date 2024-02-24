@@ -8,7 +8,7 @@ export const partners = [
         telefono: "123-456-7890"
     },
     
-    {
+    {            
         id: 2,
         nombre: "María González",
         correo: "maria@example.com",

@@ -1,0 +1,30 @@
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.red{
+    border: solid red 1px;
+}
+
+.my-button{
+    width: 100%;
+}
+
+.my-search{
+    width: 60%;
+    margin-bottom: 1rem;
+    margin-left: auto;
+}
+
+.my-icon{
+    cursor: pointer;
+}
+
+.my-icon:hover{
+    color: red;
+}
+
+my-container{
+    width: 90%;
+}

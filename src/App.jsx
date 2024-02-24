@@ -1,14 +1,12 @@
-import { useState } from 'react'
+import React, { useState, useEffect } from 'react';
 import { partners } from "./partners";
-import './App.css'
+import Listado from './components/Listado'
+import Formulario from './components/Formulario';
+import Alert from './components/Alert';
+import Buscador from './components/Buscador';
+import './App.css';
 
-function App() {
+const App = () => {
+ 
 
-  return (
-    <>
-     
-    </>
-  )
-}
-
-export default App
+export default App;
