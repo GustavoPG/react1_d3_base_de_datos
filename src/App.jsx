@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { partners } from "./partners";
+import { partners } from "./baseColaboradores";
 import Listado from './components/Listado'
 import Formulario from './components/Formulario';
 import Alert from './components/Alert';
