@@ -142,7 +142,7 @@ const Formulario = ({ addPartner, showAlert }) => {
 
         <Form.Group className="mb-3">
         <Button 
-        variant="primary mb-3 my-button" 
+        variant="mb-3 my-button" 
         className='btn' 
         type="submit" >
           Agregar Colaborador

@@ -27,7 +27,7 @@ const App = () => {
       return (partner.id > max) ? partner.id : max;
     }, 0);
     const objNew = {
-      id: maxId + 1, nombre: newPartner.nombre.trim(), correo: newPartner.correo.trim(), edad: newPartner.edad.trim(),
+      id: Number(maxId) + 1, nombre: newPartner.nombre.trim(), correo: newPartner.correo.trim(), edad: newPartner.edad.trim(),
       cargo: newPartner.cargo.trim(), telefono: newPartner.telefono.trim()
     }
     partnersUpdated = ([...partnersList, objNew]);
@@ -66,7 +66,7 @@ const App = () => {
 
   return (
     <>
-      <div className='container col-md-12 col-sm-6 my-5'>
+      <div className='container col-md-12 col-sm-6 my-5 red'>
         <div className="row">
           <div className="col">
             <h2 className='text-center'>Lista de Colaboradores</h2>
@@ -74,12 +74,12 @@ const App = () => {
         </div>
 
         <div className='row'>
-          <div className='col col-auto mx-auto'>
+          <div className='col col-auto my-form'>
             <Buscador search={setSearch} />
             <Listado data={partnersList} onDelete={deletePartner} />
           </div>
 
-          <div className='col col-auto mx-auto'>
+          <div className='col col-auto'>
             <div className="row">
               <div className="col">
                 <h2 className='text-center'>Agregar Colaborador</h2>
